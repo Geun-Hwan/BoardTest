@@ -42,7 +42,8 @@
 					<td align="center" colspan="2">
 					<input type="submit" value="글쓰기">&nbsp;&nbsp;
 					<input type="reset" value="다시 작성">&nbsp;&nbsp;
-					<button onclick="location.href='BoardList.jsp'">전체 게시글 보기</button>
+					<!-- button 태그 default type은 submit 따라서 type지정이 필요함-->
+					<button type="button" onclick="location.href='BoardList.jsp'">전체 게시글</button>
 					</td>
 				</tr>
 			</table>
