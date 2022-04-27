@@ -42,7 +42,7 @@
 		Vector<BoardBean>list=bdao.getAllBoard(startRow, endRow);
 		
 		//테이블에 표시할 번호 지정
-		number=count-((currentPage-1)*pageSize);
+		number=count-((currentPage-1)*pageSize); 
 	%>
 	<table style="width:700; background-color:skyblue;" border="1">
 		<tr height="40">
